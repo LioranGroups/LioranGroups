@@ -104,45 +104,47 @@ const socialIconMap = {
 /* -------------------- PAGE -------------------- */
 export default function LeadershipPage() {
   return (
-    <section className="px-6 py-16 max-w-6xl mx-auto">
-      <header className="mb-12">
+    <section className="px-4 sm:px-6 py-16 max-w-7xl mx-auto">
+      {/* Header */}
+      <header className="mb-12 text-center sm:text-left">
         <h1 className="text-3xl md:text-4xl font-bold">Leadership</h1>
-        <p className="text-slate-400 mt-2 max-w-2xl">
+        <p className="text-slate-400 mt-3 max-w-2xl mx-auto sm:mx-0">
           The people responsible for building, scaling, and guiding Lioran
           Groups.
         </p>
       </header>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      {/* Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
         {leaders.map((leader) => (
           <div
             key={leader.name}
-            className="bg-black border border-slate-800 rounded-xl p-6 flex gap-6 hover:border-slate-700 transition"
+            className="bg-black border border-slate-800 rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row gap-5 hover:border-slate-700 transition"
           >
             {/* Image */}
-            <div className="shrink-0">
+            <div className="flex justify-center sm:justify-start shrink-0">
               <Image
                 src={leader.image}
                 alt={leader.name}
-                width={144}
-                height={144}
+                width={128}
+                height={128}
                 className="rounded-xl object-cover border border-slate-800"
                 priority
               />
             </div>
 
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 text-center sm:text-left">
               <h2 className="text-xl font-semibold">{leader.name}</h2>
-              <p className="text-sky-400 text-sm mt-0.5">
+              <p className="text-sky-400 text-sm mt-1">
                 {leader.roles}
               </p>
 
-              <p className="text-slate-300 text-sm mt-3">
+              <p className="text-slate-300 text-sm mt-3 leading-relaxed">
                 {leader.description}
               </p>
 
-              <p className="text-slate-400 text-sm mt-2">
+              <p className="text-slate-400 text-sm mt-3">
                 <span className="text-slate-300">Background:</span>{" "}
                 {leader.background}
               </p>
@@ -153,7 +155,7 @@ export default function LeadershipPage() {
               </p>
 
               {/* Social Icons */}
-              <div className="flex gap-4 mt-4">
+              <div className="flex justify-center sm:justify-start gap-5 mt-4">
                 {Object.entries(leader.socials).map(([key, value]) => {
                   if (!value) return null;
                   const Icon =
