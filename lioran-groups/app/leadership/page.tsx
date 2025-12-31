@@ -1,0 +1,181 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Github,
+  Youtube,
+  Instagram,
+  Twitter,
+  Globe,
+} from "lucide-react";
+
+/* -------------------- METADATA -------------------- */
+export const metadata: Metadata = {
+  title: "Leadership | Lioran Groups",
+  description:
+    "Meet the leadership team behind Lioran Groups — founders driving technology, strategy, and execution.",
+  keywords: [
+    "Lioran Groups",
+    "Leadership",
+    "Founders",
+    "Startup Team",
+    "Technology Leadership",
+  ],
+  openGraph: {
+    title: "Leadership | Lioran Groups",
+    description:
+      "Founders and leaders driving innovation, execution, and long-term growth at Lioran Groups.",
+    type: "website",
+  },
+};
+
+/* -------------------- TYPES -------------------- */
+type SocialLinks = {
+  github?: string;
+  youtube?: string;
+  instagram?: string;
+  x?: string;
+  website?: string;
+};
+
+type Leader = {
+  name: string;
+  roles: string;
+  image: string;
+  description: string;
+  background: string;
+  focus: string;
+  socials: SocialLinks;
+};
+
+/* -------------------- DATA -------------------- */
+const leaders: Leader[] = [
+  {
+    name: "Swaraj Puppalwar",
+    roles: "Co-Founder & CTO",
+    image: "/founders/swaraj-f.jpeg",
+    description:
+      "Technology-driven builder focused on scalable systems and long-term innovation.",
+    background: "Full-stack engineering, systems design",
+    focus: "Platform architecture, engineering culture",
+    socials: {
+      github: "https://github.com/UltronTheAI",
+      youtube: "https://youtube.com/@proepiccoder",
+      instagram: "https://instagram.com/pro_epic_programmer",
+      x: "https://x.com/PuppalwarSwaraj",
+      website: "https://swarajpuppalwar.onrender.com",
+    },
+  },
+  {
+    name: "Shreyash Raipura",
+    roles: "Co-Founder, CEO & CFO",
+    image: "/founders/shreyash-f.jpeg",
+    description:
+      "Strategic leader driving vision, finance, and long-term business growth.",
+    background: "Leadership, finance, and strategy",
+    focus: "Vision, capital allocation, partnerships",
+    socials: {
+      instagram: "https://www.instagram.com/shreyash_ak31/",
+    },
+  },
+  {
+    name: "Pranay Kumeriya",
+    roles: "Co-Founder & COO",
+    image: "/founders/pranay-f.jpeg",
+    description:
+      "Execution-focused operator ensuring smooth delivery and operational excellence.",
+    background: "Operations and execution",
+    focus: "Process optimization and delivery",
+    socials: {
+      instagram: "https://www.instagram.com/pranay_kumeriya_11/",
+    },
+  },
+];
+
+/* -------------------- ICON MAP -------------------- */
+const socialIconMap = {
+  github: Github,
+  youtube: Youtube,
+  instagram: Instagram,
+  x: Twitter,
+  website: Globe,
+};
+
+/* -------------------- PAGE -------------------- */
+export default function LeadershipPage() {
+  return (
+    <section className="px-6 py-16 max-w-6xl mx-auto">
+      <header className="mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold">Leadership</h1>
+        <p className="text-slate-400 mt-2 max-w-2xl">
+          The people responsible for building, scaling, and guiding Lioran
+          Groups.
+        </p>
+      </header>
+
+      <div className="grid md:grid-cols-2 gap-8">
+        {leaders.map((leader) => (
+          <div
+            key={leader.name}
+            className="bg-black border border-slate-800 rounded-xl p-6 flex gap-6 hover:border-slate-700 transition"
+          >
+            {/* Image */}
+            <div className="shrink-0">
+              <Image
+                src={leader.image}
+                alt={leader.name}
+                width={144}
+                height={144}
+                className="rounded-xl object-cover border border-slate-800"
+                priority
+              />
+            </div>
+
+            {/* Content */}
+            <div className="flex-1">
+              <h2 className="text-xl font-semibold">{leader.name}</h2>
+              <p className="text-sky-400 text-sm mt-0.5">
+                {leader.roles}
+              </p>
+
+              <p className="text-slate-300 text-sm mt-3">
+                {leader.description}
+              </p>
+
+              <p className="text-slate-400 text-sm mt-2">
+                <span className="text-slate-300">Background:</span>{" "}
+                {leader.background}
+              </p>
+
+              <p className="text-slate-400 text-sm">
+                <span className="text-slate-300">Focus:</span>{" "}
+                {leader.focus}
+              </p>
+
+              {/* Social Icons */}
+              <div className="flex gap-4 mt-4">
+                {Object.entries(leader.socials).map(([key, value]) => {
+                  if (!value) return null;
+                  const Icon =
+                    socialIconMap[key as keyof typeof socialIconMap];
+
+                  return (
+                    <Link
+                      key={key}
+                      href={value}
+                      target="_blank"
+                      aria-label={`${leader.name} ${key}`}
+                      className="text-slate-400 hover:text-sky-400 transition"
+                    >
+                      <Icon className="w-5 h-5" />
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
