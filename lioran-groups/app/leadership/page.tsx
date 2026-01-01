@@ -78,7 +78,7 @@ const leaders: Leader[] = [
     },
   },
   {
-    name: "Shreyash Raipura",
+    name: "Shreyash Raipure",
     roles: "Co-Founder, CEO & CFO",
     tag: "ceo-cfo",
     image: "/founders/shreyash-f.jpeg",
