@@ -91,7 +91,7 @@ export default function ValuationPage() {
 
               <tr className="border-t border-slate-800">
                 <td className="px-4 py-3 text-slate-200">
-                  Shreyash Raipura
+                  Shreyash Raipure
                 </td>
                 <td className="px-4 py-3 text-slate-400">
                   Co-Founder, CEO & CFO
