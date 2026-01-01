@@ -26,6 +26,15 @@ export const metadata: Metadata = {
     description:
       "Founders and leaders driving innovation, execution, and long-term growth at Lioran Groups.",
     type: "website",
+    url: "https://lioran.group/leadership",
+    images: [
+      {
+        url: "/logo.png",
+        width: 640,
+        height: 640,
+        alt: "Lioran Groups.",
+      },
+    ],
   },
 };
 
