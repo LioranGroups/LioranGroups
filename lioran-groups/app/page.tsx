@@ -108,7 +108,7 @@ export default function HomePage() {
         }, 5000)
       );
 
-      timers.push(setTimeout(start, 13000));
+      // timers.push(setTimeout(start, 13000));
     };
 
     start();

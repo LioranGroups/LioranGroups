@@ -41,6 +41,7 @@ type SocialLinks = {
 type Leader = {
   name: string;
   roles: string;
+  tag: string;
   image: string;
   description: string;
   background: string;
@@ -53,6 +54,7 @@ const leaders: Leader[] = [
   {
     name: "Swaraj Puppalwar",
     roles: "Co-Founder & CTO",
+    tag: "cto",
     image: "/founders/swaraj-f.jpeg",
     description:
       "Technology-driven builder focused on scalable systems and long-term innovation.",
@@ -69,6 +71,7 @@ const leaders: Leader[] = [
   {
     name: "Shreyash Raipura",
     roles: "Co-Founder, CEO & CFO",
+    tag: "ceo&cfo",
     image: "/founders/shreyash-f.jpeg",
     description:
       "Strategic leader driving vision, finance, and long-term business growth.",
@@ -81,6 +84,7 @@ const leaders: Leader[] = [
   {
     name: "Pranay Kumeriya",
     roles: "Co-Founder & COO",
+    tag: "coo",
     image: "/founders/pranay-f.jpeg",
     description:
       "Execution-focused operator ensuring smooth delivery and operational excellence.",
@@ -126,8 +130,8 @@ export default function LeadershipPage() {
               <Image
                 src={leader.image}
                 alt={leader.name}
-                width={128}
-                height={128}
+                width={300}
+                height={150}
                 className="rounded-xl object-cover border border-slate-800"
                 priority
               />
@@ -173,6 +177,17 @@ export default function LeadershipPage() {
                     </Link>
                   );
                 })}
+              </div>
+              {/* Divider */}
+              <div className="w-full h-px bg-slate-800 my-4"></div>
+              {/* View more */}
+              <div className="flex justify-center sm:justify-start">
+                <Link
+                  href={`/leadership/${leader.tag}`}
+                  className="text-slate-400 hover:text-sky-400 transition"
+                >
+                  View more
+                </Link>
               </div>
             </div>
           </div>
