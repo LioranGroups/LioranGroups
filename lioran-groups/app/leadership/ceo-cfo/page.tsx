@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     type: "profile",
     images: [
       {
-        url: "/founders/shreyash-f.jpeg",
-        width: 160,
-        height: 160,
+        url: "/founders/Shreyash-smp.png",
+        width: 1200,
+        height: 630,
         alt: "Shreyash Raipura",
       },
     ],

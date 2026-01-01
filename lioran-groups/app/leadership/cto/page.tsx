@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     type: "profile",
     images: [
       {
-        url: "/founders/swaraj-f.jpeg",
-        width: 768,
-        height: 949,
+        url: "/founders/Swaraj-smp.png",
+        width: 1200,
+        height: 630,
         alt: "Swaraj Puppalwar",
       },
     ],

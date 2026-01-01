@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     type: "profile",
     images: [
       {
-        url: "/founders/pranay-f.jpeg",
-        width: 160,
-        height: 160,
+        url: "/founders/Pranay-smp.png",
+        width: 1200,
+        height: 630,
         alt: "Pranay Kumeriya",
       },
     ],
