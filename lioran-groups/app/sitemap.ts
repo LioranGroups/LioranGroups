@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/leadership/ceo&cfo`,
+      url: `${baseUrl}/leadership/ceo-cfo`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
