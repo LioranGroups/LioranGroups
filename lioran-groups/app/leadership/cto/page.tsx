@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/founders/swaraj-f.jpeg",
-        width: 160,
-        height: 160,
+        width: 768,
+        height: 949,
         alt: "Swaraj Puppalwar",
       },
     ],
