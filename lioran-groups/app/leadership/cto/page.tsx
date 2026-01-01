@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     description:
       "Founder & CTO of Lioran Groups, focused on scalable systems, backend architecture, and real-world product engineering.",
     type: "profile",
+    images: [
+      {
+        url: "/founders/swaraj-f.jpeg",
+        width: 160,
+        height: 160,
+        alt: "Swaraj Puppalwar",
+      },
+    ],
   },
 };
 
