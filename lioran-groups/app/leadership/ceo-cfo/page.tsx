@@ -5,26 +5,26 @@ import { Instagram } from "lucide-react";
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "CEO & CFO | Shreyash Raipura | Lioran Groups",
+  title: "CEO & CFO | Shreyash Raipure | Lioran Groups",
   description:
-    "Shreyash Raipura is the Co-Founder, CEO & CFO of Lioran Groups, leading company vision, finance, and long-term business strategy.",
+    "Shreyash Raipure is the Co-Founder, CEO & CFO of Lioran Groups, leading company vision, finance, and long-term business strategy.",
   keywords: [
-    "Shreyash Raipura",
+    "Shreyash Raipure",
     "CEO Lioran Groups",
     "CFO Lioran Groups",
     "Startup CEO",
     "Business Strategy",
   ],
   openGraph: {
-    title: "Shreyash Raipura | Co-Founder, CEO & CFO | Lioran Groups",
+    title: "Shreyash Raipure | Co-Founder, CEO & CFO | Lioran Groups",
     description:
       "Co-Founder, CEO & CFO of Lioran Groups, driving vision, financial strategy, and long-term growth.",
     type: "profile",
     images: [
       {
-        url: "/founders/Shreyash-smp.png",
-        width: 1200,
-        height: 630,
+        url: "/founders/shreyash-f.jpeg",
+        width: 160,
+        height: 160,
         alt: "Shreyash Raipura",
       },
     ],
@@ -39,7 +39,7 @@ export default function CEOCFOPage() {
       <header className="flex flex-col sm:flex-row gap-8 items-center sm:items-start">
         <Image
           src="/founders/shreyash-f.jpeg"
-          alt="Shreyash Raipura"
+          alt="Shreyash Raipure"
           width={160}
           height={160}
           className="rounded-2xl border border-slate-800 object-cover"
@@ -48,7 +48,7 @@ export default function CEOCFOPage() {
 
         <div className="flex-1 text-center sm:text-left">
           <h1 className="text-3xl md:text-4xl font-bold">
-            Shreyash Raipura
+            Shreyash Raipure
           </h1>
           <p className="text-sky-400 mt-2 text-lg">
             Co-Founder, Chief Executive Officer & Chief Financial Officer
