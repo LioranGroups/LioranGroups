@@ -17,9 +17,21 @@ const CODE_LINES: CodeLine[] = [
     { text: " {", color: "text-orange-400" },
   ],
   [
+    { text: "  founded", color: "text-purple-400" },
+    { text: ": ", color: "text-white/70" },
+    { text: "2025", color: "text-amber-400" },
+    { text: ",", color: "text-orange-400" },
+  ],
+  [
+    { text: "  origin", color: "text-purple-400" },
+    { text: ": ", color: "text-white/70" },
+    { text: "\"An idea that grew into a startup\"", color: "text-amber-400" },
+    { text: ",", color: "text-orange-400" },
+  ],
+  [
     { text: "  mission", color: "text-purple-400" },
     { text: ": ", color: "text-white/70" },
-    { text: "\"Long-term ventures\"", color: "text-amber-400" },
+    { text: "\"Build long-term systems\"", color: "text-amber-400" },
     { text: ",", color: "text-orange-400" },
   ],
   [
@@ -48,30 +60,16 @@ const CODE_LINES: CodeLine[] = [
     { text: ",", color: "text-orange-400" },
   ],
   [{ text: "}", color: "text-orange-400" }],
-  [],
-  [
-    { text: "fn", color: "text-sky-400" },
-    { text: " execute", color: "text-emerald-400" },
-    { text: "()", color: "text-orange-400" },
-    { text: " {", color: "text-orange-400" },
-  ],
-  [
-    { text: "  println!", color: "text-sky-400" },
-    { text: "(", color: "text-orange-400" },
-    { text: "\"Building the future.\"", color: "text-amber-400" },
-    { text: ")", color: "text-orange-400" },
-    { text: ";", color: "text-orange-400" },
-  ],
-  [{ text: "}", color: "text-orange-400" }],
 ];
 
 const TERMINAL_OUTPUT = [
-  "[ OK ] Initializing Lioran Groups",
-  "[ OK ] Loading ventures",
-  "[ OK ] Verifying foundations",
-  "[ OK ] Executing long-term vision",
-  "[ DONE ] System running",
-  "[ LOG ] Building the future.",
+  "$ initializing lioran-groups",
+  "[ OK ] registering idea (2025)",
+  "[ OK ] forming core team",
+  "[ OK ] building first systems",
+  "[ OK ] launching early products",
+  "[ NEXT ] scaling responsibly",
+  "[ RUNNING ] long-term execution mode",
 ];
 
 export default function HomePage() {
@@ -91,7 +89,7 @@ export default function HomePage() {
         timers.push(
           setTimeout(() => {
             setTypedLines((p) => [...p, line]);
-          }, (5000 / CODE_LINES.length) * i)
+          }, 120 * i)
         );
       });
 
@@ -102,13 +100,11 @@ export default function HomePage() {
             timers.push(
               setTimeout(() => {
                 setOutputLines((p) => [...p, line]);
-              }, (3000 / TERMINAL_OUTPUT.length) * i)
+              }, 220 * i)
             );
           });
-        }, 5000)
+        }, 2500)
       );
-
-      // timers.push(setTimeout(start, 13000));
     };
 
     start();
@@ -124,8 +120,8 @@ export default function HomePage() {
         </h1>
 
         <p className="text-white/70 max-w-2xl mx-auto">
-          Technology-driven ventures focused on long-term, scalable products.
-          Built with strong foundations and sustainable growth in mind.
+          A technology group focused on building long-term, scalable products.
+          We design systems meant to last — not chase trends.
         </p>
 
         <div className="flex justify-center gap-3">
@@ -141,6 +137,31 @@ export default function HomePage() {
           >
             View Careers
           </a>
+        </div>
+      </div>
+
+      {/* Explanation */}
+      <div className="grid md:grid-cols-3 gap-10 text-sm text-slate-400">
+        <div>
+          <h3 className="text-white font-semibold mb-2">Why Lioran</h3>
+          <p>
+            We started Lioran to build systems that solve real operational
+            problems, not short-lived tools. Longevity and clarity come first.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-white font-semibold mb-2">What We Offer</h3>
+          <p>
+            Infrastructure-driven products, internal platforms, and focused
+            software built for reliability, scale, and simplicity.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-white font-semibold mb-2">How It Started</h3>
+          <p>
+            In 2025, Lioran began as an idea. Through consistent execution, it
+            evolved into a structured startup with clear long-term direction.
+          </p>
         </div>
       </div>
 
@@ -181,6 +202,17 @@ export default function HomePage() {
             <span className="inline-block w-2 h-4 bg-emerald-400 ml-1 animate-pulse" />
           )}
         </motion.div>
+      </div>
+
+      {/* Roadmap */}
+      <div className="max-w-3xl space-y-6">
+        <h2 className="text-2xl font-semibold text-white">Roadmap</h2>
+        <ul className="space-y-3 text-slate-400 text-sm">
+          <li>• 2025 — Concept, foundation, early internal builds</li>
+          <li>• 2026 — Product stabilization and limited public access</li>
+          <li>• 2027 — Scaling core platforms and infrastructure</li>
+          <li>• Long-term — Multi-sector expansion with strong fundamentals</li>
+        </ul>
       </div>
     </section>
   );
