@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     description:
       "Co-Founder, CEO & CFO of Lioran Groups, driving vision, financial strategy, and long-term growth.",
     type: "profile",
+    images: [
+      {
+        url: "/founders/shreyash-f.jpeg",
+        width: 160,
+        height: 160,
+        alt: "Shreyash Raipura",
+      },
+    ],
   },
 };
 

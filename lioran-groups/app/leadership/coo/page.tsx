@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     description:
       "Co-Founder & COO at Lioran Groups, responsible for execution, operations, and process optimization.",
     type: "profile",
+    images: [
+      {
+        url: "/founders/pranay-f.jpeg",
+        width: 160,
+        height: 160,
+        alt: "Pranay Kumeriya",
+      },
+    ],
   },
 };
 
