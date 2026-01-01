@@ -8,6 +8,20 @@ export const metadata: Metadata = {
   title: "Lioran Groups",
   description:
     "Lioran Groups – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
+  keywords: ["Lioran Groups", "LCS", "Hushar Spreadsheet", "Lioran Cloud", "Lioran Spreadsheet", "Lioran"],
+  openGraph: {
+    title: "Lioran Groups",
+    description:
+      "Lioran Groups – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
+    images: [
+      {
+        url: "/Lioran-smp.png",
+        width: 1200,
+        height: 630,
+        alt: "Lioran Groups.",
+      },
+    ],
+  },
 };
 
 const inter = Inter({

@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     url: "https://lioran.group/leadership",
     images: [
       {
-        url: "/logo.png",
-        width: 640,
-        height: 640,
+        url: "/Lioran-smp.png",
+        width: 1200,
+        height: 630,
         alt: "Lioran Groups.",
       },
     ],
