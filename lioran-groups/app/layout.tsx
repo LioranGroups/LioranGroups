@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Inter, JetBrains_Mono } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Lioran Groups | Head Office",
+  title: "Lioran Groups",
   description:
     "Lioran Groups – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
 };
