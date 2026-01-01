@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 /* -------------------- VALUATION DATA -------------------- */
 const valuationData = {
-  totalValuation: 3_000_000, // INR
+  totalValuation: 7_337, // INR
   totalShares: 3_000_000, // 3 million shares
   currency: "INR",
   founders: [
