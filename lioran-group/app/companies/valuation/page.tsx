@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "Company Valuation | Lioran Groups",
+  title: "Company Valuation | Lioran Group",
   description:
-    "Current valuation, total shares, per-share value, and founder equity distribution of Lioran Groups.",
+    "Current valuation, total shares, per-share value, and founder equity distribution of Lioran Group.",
 };
 
 /* -------------------- VALUATION DATA -------------------- */
@@ -52,7 +52,7 @@ export default function ValuationPage() {
           Company Valuation
         </h1>
         <p className="text-slate-400 mt-3 max-w-2xl">
-          An overview of Lioran Groups’ current valuation, total shares,
+          An overview of Lioran Group’ current valuation, total shares,
           and founder equity distribution.
         </p>
       </header>
@@ -162,7 +162,7 @@ export default function ValuationPage() {
       {/* Note */}
       <section className="text-sm text-slate-400">
         <p>
-          This valuation is an internal assessment of Lioran Groups.
+          This valuation is an internal assessment of Lioran Group.
           Share value and ownership may change based on future funding,
           revenue, and market conditions.
         </p>

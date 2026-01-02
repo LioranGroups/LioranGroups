@@ -4,7 +4,7 @@ export default function PrivacyPage() {
       <h1 className="text-3xl md:text-4xl font-bold">Privacy Policy</h1>
 
       <p className="text-slate-300">
-        At Lioran Groups, we respect your privacy and are committed to protecting
+        At Lioran Group, we respect your privacy and are committed to protecting
         the information you share with us.
       </p>
 
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
       </p>
 
       <p className="text-slate-400 text-sm">
-        By using Lioran Groups products or websites, you agree to this Privacy
+        By using Lioran Group products or websites, you agree to this Privacy
         Policy.
       </p>
     </section>

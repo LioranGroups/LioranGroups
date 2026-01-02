@@ -9,7 +9,7 @@ export default function ContactPage() {
           Contact
         </h1>
         <p className="text-slate-400 max-w-2xl">
-          Get in touch with Lioran Groups for support, partnerships, or official
+          Get in touch with Lioran Group for support, partnerships, or official
           communication.
         </p>
       </header>
@@ -52,7 +52,7 @@ export default function ContactPage() {
         {/* Map */}
         <div className="bg-black border border-slate-800 rounded-2xl overflow-hidden">
           <iframe
-            title="Lioran Groups Location"
+            title="Lioran Group Location"
             src="https://www.google.com/maps?q=Chandrapur%20Maharashtra%20India&output=embed"
             className="w-full h-64 md:h-full border-0"
             loading="lazy"

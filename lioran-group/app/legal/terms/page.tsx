@@ -4,7 +4,7 @@ export default function TermsPage() {
       <h1 className="text-3xl md:text-4xl font-bold">Terms of Use</h1>
 
       <p className="text-slate-300">
-        These Terms of Use govern your access to and use of Lioran Groups websites,
+        These Terms of Use govern your access to and use of Lioran Group websites,
         platforms, and products.
       </p>
 
@@ -15,7 +15,7 @@ export default function TermsPage() {
       </p>
 
       <p className="text-slate-300">
-        Some Lioran Groups products may be experimental, early-access, or under
+        Some Lioran Group products may be experimental, early-access, or under
         active development. Features, availability, and performance may change
         over time.
       </p>

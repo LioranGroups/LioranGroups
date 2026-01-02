@@ -5,19 +5,19 @@ import { Instagram } from "lucide-react";
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "COO | Pranay Kumeriya | Lioran Groups",
+  title: "COO | Pranay Kumeriya | Lioran Group",
   description:
-    "Pranay Kumeriya is the Co-Founder & COO of Lioran Groups, leading operations, execution, and delivery across all products.",
+    "Pranay Kumeriya is the Co-Founder & COO of Lioran Group, leading operations, execution, and delivery across all products.",
   keywords: [
     "Pranay Kumeriya",
-    "COO Lioran Groups",
+    "COO Lioran Group",
     "Operations Lead",
     "Startup COO",
   ],
   openGraph: {
-    title: "Pranay Kumeriya | Co-Founder & COO | Lioran Groups",
+    title: "Pranay Kumeriya | Co-Founder & COO | Lioran Group",
     description:
-      "Co-Founder & COO at Lioran Groups, responsible for execution, operations, and process optimization.",
+      "Co-Founder & COO at Lioran Group, responsible for execution, operations, and process optimization.",
     type: "profile",
     images: [
       {
@@ -50,12 +50,12 @@ export default function COOPage() {
             Pranay Kumeriya
           </h1>
           <p className="text-sky-400 mt-2 text-lg">
-            Co-Founder & Chief Operating Officer — Lioran Groups
+            Co-Founder & Chief Operating Officer — Lioran Group
           </p>
 
           <p className="text-slate-300 mt-4 leading-relaxed">
             Execution-focused leader responsible for turning strategy into
-            reality. As COO of Lioran Groups, Pranay oversees operations,
+            reality. As COO of Lioran Group, Pranay oversees operations,
             delivery pipelines, and internal coordination to ensure products
             move from planning to production smoothly.
           </p>
@@ -80,7 +80,7 @@ export default function COOPage() {
         <section>
           <h2 className="text-xl font-semibold mb-3">Role & Responsibilities</h2>
           <p className="text-slate-300 leading-relaxed">
-            Pranay leads day-to-day operations at Lioran Groups, ensuring teams,
+            Pranay leads day-to-day operations at Lioran Group, ensuring teams,
             timelines, and execution remain aligned with company goals. He
             focuses on operational clarity, accountability, and delivery across
             all verticals.
@@ -113,10 +113,10 @@ export default function COOPage() {
 
         {/* Impact */}
         <section>
-          <h2 className="text-xl font-semibold mb-3">Impact at Lioran Groups</h2>
+          <h2 className="text-xl font-semibold mb-3">Impact at Lioran Group</h2>
           <p className="text-slate-300 leading-relaxed">
             By bridging strategy and execution, Pranay plays a critical role in
-            maintaining operational stability as Lioran Groups grows, enabling
+            maintaining operational stability as Lioran Group grows, enabling
             teams to move faster without losing structure or quality.
           </p>
         </section>

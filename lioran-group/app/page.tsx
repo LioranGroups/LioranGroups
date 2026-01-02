@@ -13,7 +13,7 @@ type CodeLine = Token[];
 const CODE_LINES: CodeLine[] = [
   [
     { text: "struct", color: "text-sky-400" },
-    { text: " LioranGroups", color: "text-emerald-400" },
+    { text: " LioranGroup", color: "text-emerald-400" },
     { text: " {", color: "text-orange-400" },
   ],
   [
@@ -63,7 +63,7 @@ const CODE_LINES: CodeLine[] = [
 ];
 
 const TERMINAL_OUTPUT = [
-  "$ initializing lioran-groups",
+  "$ initializing Lioran-Group",
   "[ OK ] registering idea (2025)",
   "[ OK ] forming core team",
   "[ OK ] building first systems",
@@ -116,7 +116,7 @@ export default function HomePage() {
       {/* Hero */}
       <div className="text-center space-y-6">
         <h1 className="text-5xl md:text-6xl font-bold text-white">
-          Lioran Groups
+          Lioran Group
         </h1>
 
         <p className="text-white/70 max-w-2xl mx-auto">

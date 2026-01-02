@@ -5,7 +5,7 @@ export default function LegalPage() {
     <section className="px-6 py-16 max-w-4xl mx-auto space-y-6">
       <h1 className="text-3xl md:text-4xl font-bold">Legal</h1>
       <p className="text-slate-300">
-        Policies and terms governing use of Lioran Groups products and properties.
+        Policies and terms governing use of Lioran Group products and properties.
       </p>
       <ul className="space-y-3">
         <li>

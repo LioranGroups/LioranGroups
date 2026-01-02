@@ -4,7 +4,7 @@ export default function RefundPage() {
       <h1 className="text-3xl md:text-4xl font-bold">Refund Policy</h1>
 
       <p className="text-slate-300">
-        Lioran Groups offers a limited 24-hour refund policy on eligible paid
+        Lioran Group offers a limited 24-hour refund policy on eligible paid
         products and plans, unless otherwise stated.
       </p>
 
@@ -28,7 +28,7 @@ export default function RefundPage() {
 
       <p className="text-slate-400 text-sm">
         Refund eligibility is evaluated on a case-by-case basis and final
-        decisions are made by Lioran Groups.
+        decisions are made by Lioran Group.
       </p>
     </section>
   );

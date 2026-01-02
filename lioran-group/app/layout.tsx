@@ -5,20 +5,20 @@ import Footer from "@/components/Footer";
 import { Inter, JetBrains_Mono } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Lioran Groups",
+  title: "Lioran Group",
   description:
-    "Lioran Groups – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
-  keywords: ["Lioran Groups", "LCS", "Hushar Spreadsheet", "Lioran Cloud", "Lioran Spreadsheet", "Lioran"],
+    "Lioran Group – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
+  keywords: ["Lioran Group", "LCS", "Hushar Spreadsheet", "Lioran Cloud", "Lioran Spreadsheet", "Lioran"],
   openGraph: {
-    title: "Lioran Groups",
+    title: "Lioran Group",
     description:
-      "Lioran Groups – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
+      "Lioran Group – Building technology-driven ventures from India. Head Office in Chandrapur, Maharashtra.",
     images: [
       {
         url: "/Lioran-smp.png",
         width: 1200,
         height: 630,
-        alt: "Lioran Groups.",
+        alt: "Lioran Group.",
       },
     ],
   },

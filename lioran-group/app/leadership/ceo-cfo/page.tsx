@@ -5,20 +5,20 @@ import { Instagram } from "lucide-react";
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "CEO & CFO | Shreyash Raipure | Lioran Groups",
+  title: "CEO & CFO | Shreyash Raipure | Lioran Group",
   description:
-    "Shreyash Raipure is the Co-Founder, CEO & CFO of Lioran Groups, leading company vision, finance, and long-term business strategy.",
+    "Shreyash Raipure is the Co-Founder, CEO & CFO of Lioran Group, leading company vision, finance, and long-term business strategy.",
   keywords: [
     "Shreyash Raipure",
-    "CEO Lioran Groups",
-    "CFO Lioran Groups",
+    "CEO Lioran Group",
+    "CFO Lioran Group",
     "Startup CEO",
     "Business Strategy",
   ],
   openGraph: {
-    title: "Shreyash Raipure | Co-Founder, CEO & CFO | Lioran Groups",
+    title: "Shreyash Raipure | Co-Founder, CEO & CFO | Lioran Group",
     description:
-      "Co-Founder, CEO & CFO of Lioran Groups, driving vision, financial strategy, and long-term growth.",
+      "Co-Founder, CEO & CFO of Lioran Group, driving vision, financial strategy, and long-term growth.",
     type: "profile",
     images: [
       {
@@ -56,7 +56,7 @@ export default function CEOCFOPage() {
 
           <p className="text-slate-300 mt-4 leading-relaxed">
             Strategic leader responsible for defining the long-term direction
-            of Lioran Groups. As CEO & CFO, Shreyash oversees company vision,
+            of Lioran Group. As CEO & CFO, Shreyash oversees company vision,
             financial planning, capital allocation, and partnerships — ensuring
             sustainable growth with disciplined execution.
           </p>
@@ -82,7 +82,7 @@ export default function CEOCFOPage() {
           <h2 className="text-xl font-semibold mb-3">Leadership Role</h2>
           <p className="text-slate-300 leading-relaxed">
             Shreyash leads overall company strategy and financial governance at
-            Lioran Groups. His role bridges long-term vision with short-term
+            Lioran Group. His role bridges long-term vision with short-term
             execution, ensuring the company grows responsibly while maintaining
             operational and financial discipline.
           </p>
@@ -108,16 +108,16 @@ export default function CEOCFOPage() {
             Shreyash believes sustainable companies are built through clear
             vision, financial discipline, and strong teams. His leadership
             approach prioritizes long-term value creation over short-term wins,
-            ensuring Lioran Groups scales with stability and purpose.
+            ensuring Lioran Group scales with stability and purpose.
           </p>
         </section>
 
         {/* Impact */}
         <section>
-          <h2 className="text-xl font-semibold mb-3">Impact at Lioran Groups</h2>
+          <h2 className="text-xl font-semibold mb-3">Impact at Lioran Group</h2>
           <p className="text-slate-300 leading-relaxed">
             By aligning strategy, finance, and execution, Shreyash ensures
-            Lioran Groups operates with clarity and direction — empowering
+            Lioran Group operates with clarity and direction — empowering
             teams to innovate while maintaining strong financial foundations.
           </p>
         </section>

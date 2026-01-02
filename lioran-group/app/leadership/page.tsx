@@ -11,20 +11,20 @@ import {
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "Leadership | Lioran Groups",
+  title: "Leadership | Lioran Group",
   description:
-    "Meet the leadership team behind Lioran Groups — founders driving technology, strategy, and execution.",
+    "Meet the leadership team behind Lioran Group — founders driving technology, strategy, and execution.",
   keywords: [
-    "Lioran Groups",
+    "Lioran Group",
     "Leadership",
     "Founders",
     "Startup Team",
     "Technology Leadership",
   ],
   openGraph: {
-    title: "Leadership | Lioran Groups",
+    title: "Leadership | Lioran Group",
     description:
-      "Founders and leaders driving innovation, execution, and long-term growth at Lioran Groups.",
+      "Founders and leaders driving innovation, execution, and long-term growth at Lioran Group.",
     type: "website",
     url: "https://lioran.group/leadership",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         url: "/Lioran-smp.png",
         width: 1200,
         height: 630,
-        alt: "Lioran Groups.",
+        alt: "Lioran Group.",
       },
     ],
   },
@@ -123,7 +123,7 @@ export default function LeadershipPage() {
         <h1 className="text-3xl md:text-4xl font-bold">Leadership</h1>
         <p className="text-slate-400 mt-3 max-w-2xl mx-auto sm:mx-0">
           The people responsible for building, scaling, and guiding Lioran
-          Groups.
+          Group.
         </p>
       </header>
 

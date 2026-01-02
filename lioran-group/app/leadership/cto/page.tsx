@@ -11,20 +11,20 @@ import {
 
 /* -------------------- METADATA -------------------- */
 export const metadata: Metadata = {
-  title: "CTO | Swaraj Puppalwar | Lioran Groups",
+  title: "CTO | Swaraj Puppalwar | Lioran Group",
   description:
-    "Swaraj Puppalwar is the Founder & CTO of Lioran Groups, leading system architecture, backend platforms, and long-term technical vision.",
+    "Swaraj Puppalwar is the Founder & CTO of Lioran Group, leading system architecture, backend platforms, and long-term technical vision.",
   keywords: [
     "Swaraj Puppalwar",
-    "CTO Lioran Groups",
+    "CTO Lioran Group",
     "Founder CTO",
     "Full Stack Developer",
     "System Architect",
   ],
   openGraph: {
-    title: "Swaraj Puppalwar | Founder & CTO | Lioran Groups",
+    title: "Swaraj Puppalwar | Founder & CTO | Lioran Group",
     description:
-      "Founder & CTO of Lioran Groups, focused on scalable systems, backend architecture, and real-world product engineering.",
+      "Founder & CTO of Lioran Group, focused on scalable systems, backend architecture, and real-world product engineering.",
     type: "profile",
     images: [
       {
@@ -57,14 +57,14 @@ export default function CTOPage() {
             Swaraj Puppalwar
           </h1>
           <p className="text-sky-400 mt-2 text-lg">
-            Founder & Chief Technology Officer — Lioran Groups
+            Founder & Chief Technology Officer — Lioran Group
           </p>
 
           <p className="text-slate-300 mt-4 leading-relaxed">
             Full-Stack Web Developer and system architect who began building
             software at the age of 11. Driven by curiosity, clean engineering,
             and real-world problem solving, Swaraj leads the technical vision
-            and architecture of Lioran Groups.
+            and architecture of Lioran Group.
           </p>
 
           {/* Social Links */}
@@ -119,7 +119,7 @@ export default function CTOPage() {
         <section>
           <h2 className="text-xl font-semibold mb-3">Role & Focus</h2>
           <p className="text-slate-300 leading-relaxed">
-            As CTO of Lioran Groups, Swaraj is responsible for system design,
+            As CTO of Lioran Group, Swaraj is responsible for system design,
             backend architecture, engineering standards, and long-term technical
             strategy. His work focuses on building scalable platforms, cloud-
             native services, and production-ready systems that can grow over
