@@ -16,17 +16,17 @@ const valuationData = {
     {
       name: "Swaraj Puppalwar",
       role: "Co-Founder & CTO",
-      equity: 55,
+      equity: 34,
     },
     {
       name: "Shreyash Raipure",
       role: "Co-Founder, CEO & CFO",
-      equity: 15,
+      equity: 33,
     },
     {
       name: "Pranay Kumeriya",
       role: "Co-Founder & COO",
-      equity: 30,
+      equity: 33,
     },
   ],
 };
